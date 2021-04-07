@@ -1,0 +1,36 @@
+.facebook:hover{
+    border-radius: 5px;
+    background-color: #4c67a3;
+}
+.twitter:hover{
+    border-radius: 5px;
+    background-color: #00acee;
+}
+.you:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    
+}
+
+body{
+    background-color: rgb(194, 8, 8);
+    
+}
+
+a{
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    transition: background-color ease 200ms;
+    font-size:30px;
+    outline: none;
+}
+
+.tube{
+    border-radius: 5px;
+    background-color: rgb(194, 8, 8);
+    color: white;
+}
