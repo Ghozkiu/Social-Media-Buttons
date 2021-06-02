@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+}
+
+a {
+  font-size: 2em;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 0.2em 0.3em;
+  transition: background-color 0.6s ease, color 0.6s ease;
+  border-radius: 0.5em;
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+  color: white;
+}
+
+.you:hover {
+  background-color: white;
+}
+
+.you:hover .tube {
+  background-color: rgb(194, 8, 8);
+  color: white;
+}
+.tube {
+  border-radius: 0.4em;
+  padding: 0.15em 0.15em;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.twitter:hover {
+  background-color: #00acee;
+  color: white;
+}
